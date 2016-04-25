@@ -16,6 +16,15 @@ ref http://www.bootply.com/103783  -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
     <script type="text/javascript" src="jquery-1.11.3-jquery.min.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.theme.min.css">
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
 	<script type="text/javascript" src="validation.min.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" media="screen">
 
@@ -63,7 +72,7 @@ ref http://www.bootply.com/103783  -->
       
 <div class="bg"></div>
 <div class="jumbotron">
-  <h1>Haven</h1>
+  <h1 style = "font-weight: bold;">H<font size="8">AVEN</font> </h1>
   <p class="lead">Smart Home Care For Loved Ones</p>
 </div>
 
@@ -94,40 +103,37 @@ ref http://www.bootply.com/103783  -->
 </div>
 
 <hr>
-
-
-
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <ul class = "list-group">
-            <ol>
-            <span class="badge">1</span> What the product is
-          </ol>
+<div id="accordion">
+  <h3 style="background:none;background-color:#38CCB2;" class ="badge" >What the product is</h3>
+  <div>
+  
 
           <li class ="list-group-item ">a. Product Name</li>
 
           <li class ="list-group-item ">c. Product Definition</li>
-
           <li class ="list-group-item ">d. Product Video</li>
 
-          <ol>
-            <span class="badge">2</span> Who will use it
-          </ol>
-
-          <li class ="list-group-item ">a. Personas</li>
-
-          <li class ="list-group-item ">b. Scenarios</li>
-
-          <ol ><span class="badge">3</span> How they will use it</ol>
-
-          <li class ="list-group-item ">a. Use Case Diagrams</li>
-
-          <li class ="list-group-item ">b. Use Cases</li>
-
-          <ol><span class="badge">4</span> The product design
-          </ol>
-
-          <li class ="list-group-item ">a. Structure maps</li>
+     </ul>
+  </div>
+  <h3 style="background:none;background-color:#07C0A1;" class ="badge" >Who will use it</h3>
+  <div>
+    <p>
+    <li class ="list-group-item ">a. Personas</li>
+	<li class ="list-group-item ">b. Scenarios</li>
+    </p>
+  </div>
+  <h3 style="background:none;background-color:#07C0A1;" class ="badge">How they will use it</h3>
+  <div>
+    <p>
+    <li class ="list-group-item ">a. Use Case Diagrams</li>
+	<li class ="list-group-item ">b. Use Cases</li>
+    </p>
+    
+  </div>
+  <h3 style="background:none;background-color:#07C0A1;" class ="badge">The product design</h3>
+  <div>
+    <p>
+    <li class ="list-group-item ">a. Structure maps</li>
 
           <li class ="list-group-item ">b. Wireframes</li>
 
@@ -136,8 +142,13 @@ ref http://www.bootply.com/103783  -->
           <li class ="list-group-item ">d. State Transition diagrams</li>
 
           <li class ="list-group-item ">e. Behaviour diagrams</li>
-        </ul>
-      </div>
+    </p>
+    
+  </div>
+</div>
+
+
+      
       <div class="panel-footer"><p>
         There should also be a repository linked from the site containing research material,
 
