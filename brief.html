@@ -2,44 +2,43 @@
   Assigment : WE4.0 PHP Web App Assigment, Digital Skills Academy
   Student Id = D11128483
   Date : 20016/04/22
-  ref http://demos.codingcage.com/ -->
+  ref http://demos.codingcage.com/
+ref http://www.bootply.com/103783  -->
 
 
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Registration Form using jQuery Ajax and PHP MySQL</title>
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
-<script type="text/javascript" src="jquery-1.11.3-jquery.min.js"></script>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Registration Form using jQuery Ajax and PHP MySQL</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
+    <script type="text/javascript" src="jquery-1.11.3-jquery.min.js"></script>
+	<script type="text/javascript" src="validation.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
 
-<script type="text/javascript" src="validation.min.js"></script>
-<link href="style.css" rel="stylesheet" type="text/css" media="screen">
-
-<script type="text/javascript" src="script.js"></script>
-
-</style>
+    <script type="text/javascript" src="script.js"></script
 
 </head>
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-      <a class="navbar-brand" rel="home" href="#" title="Haven">
-        <img class="img-responsive" style="max-width:auto; margin-top: -7px;"
-             src="Images/haven_logo.png">
-    </a>        </div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" rel="home" href="#" title="Haven">
+          <img class="img-responsive" style="max-width:auto; margin-top: -7px;"
+          src="Images/haven_logo.png">
+        </a>        
+		</div><!-- end nav header-->
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="">Landing Page</a></li>
@@ -47,131 +46,137 @@
             <li><a href="login.php">login</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-        <span class="glyphicon glyphicon-user"></span>&nbsp;Hi' <?php echo $row['user_name']; ?>&nbsp;<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
-                <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    
-<div class = "jumbotron">
-  <div class="panel panel-default">
-  <div class="panel-body">
-    <ul class = "list-group"><li>
-  <span class="badge">1</span> What the product is
-</li>
+                <span class="glyphicon glyphicon-user"></span>&nbsp;Hi' <?php echo $row['user_name']; ?>&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;View Profile</a></li>
+                  <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
 
-<li class ="list-group-item ">a. Product Name</li>
+      
+<div class="bg"></div>
+<div class="jumbotron">
+  <h1>Haven</h1>
+  <p class="lead">Smart Home Care For Loved Ones</p>
+</div>
 
-<li class ="list-group-item ">c. Product Definition</li>
-
-<li class ="list-group-item ">d. Product Video</li>
-
-<li>
-<span class="badge">2</span> Who will use it
-</li>
-
-<li class ="list-group-item ">a. Personas</li>
-
-<li class ="list-group-item ">b. Scenarios</li>
-
-<li ><span class="badge">3</span> How they will use it</li>
-
-<li class ="list-group-item ">a. Use Case Diagrams</li>
-
-<li class ="list-group-item ">b. Use Cases</li>
-
-<li><span class="badge">4</span> The product design
-</li>
-
-<li class ="list-group-item ">a. Structure maps</li>
-
-<li class ="list-group-item ">b. Wireframes</li>
-
-<li class ="list-group-item ">c. Storyboards</li>
-
-<li class ="list-group-item ">d. State Transition diagrams</li>
-
-<li class ="list-group-item ">e. Behaviour diagrams</li>
-</ul>
+<div class="container">
+  <div class="row">
+    <h2>Page Content</h2>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+    Aliquam in felis sit amet augue.
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+    Aliquam in felis sit amet augue.
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+    Aliquam in felis sit amet augue.
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+    Aliquam in felis sit amet augue.
   </div>
-  <div class="panel-footer">Panel footer</div>
+ 
 </div>
 
-  <div class="panel panel-default">
-    <DIV class="panel-body"><p>
+<hr>
 
-For the product you have to produce a website to showcase your industry project.
 
-This website should include the following:
 
-<ul class = "list-group"><li>
-  <span class="badge">1</span> What the product is
-</li>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <ul class = "list-group">
+            <ol>
+            <span class="badge">1</span> What the product is
+          </ol>
 
-<li class ="list-group-item ">a. Product Name</li>
+          <li class ="list-group-item ">a. Product Name</li>
 
-<li class ="list-group-item ">c. Product Definition</li>
+          <li class ="list-group-item ">c. Product Definition</li>
 
-<li class ="list-group-item ">d. Product Video</li>
+          <li class ="list-group-item ">d. Product Video</li>
 
-<li>
-<span class="badge">2</span> Who will use it
-</li>
+          <ol>
+            <span class="badge">2</span> Who will use it
+          </ol>
 
-<li class ="list-group-item ">a. Personas</li>
+          <li class ="list-group-item ">a. Personas</li>
 
-<li class ="list-group-item ">b. Scenarios</li>
+          <li class ="list-group-item ">b. Scenarios</li>
 
-<li ><span class="badge">3</span> How they will use it</li>
+          <ol ><span class="badge">3</span> How they will use it</ol>
 
-<li class ="list-group-item ">a. Use Case Diagrams</li>
+          <li class ="list-group-item ">a. Use Case Diagrams</li>
 
-<li class ="list-group-item ">b. Use Cases</li>
+          <li class ="list-group-item ">b. Use Cases</li>
 
-<li><span class="badge">4</span> The product design
-</li>
+          <ol><span class="badge">4</span> The product design
+          </ol>
 
-<li class ="list-group-item ">a. Structure maps</li>
+          <li class ="list-group-item ">a. Structure maps</li>
 
-<li class ="list-group-item ">b. Wireframes</li>
+          <li class ="list-group-item ">b. Wireframes</li>
 
-<li class ="list-group-item ">c. Storyboards</li>
+          <li class ="list-group-item ">c. Storyboards</li>
 
-<li class ="list-group-item ">d. State Transition diagrams</li>
+          <li class ="list-group-item ">d. State Transition diagrams</li>
 
-<li class ="list-group-item ">e. Behaviour diagrams</li>
-</ul>
+          <li class ="list-group-item ">e. Behaviour diagrams</li>
+        </ul>
+      </div>
+      <div class="panel-footer"><p>
+        There should also be a repository linked from the site containing research material,
 
-There should also be a repository linked from the site containing research material,
+        references and an appendix document.
 
-references and an appendix document.
+        Learning Outcome:
 
-Learning Outcome:
+        ● Produce a digital prototype that demonstrate a user­centric approach toward design 
 
-● Produce a digital prototype that demonstrate a user­centric approach toward design 
+        and development
 
-and development
+        ● Demonstrate research and data­gathering capabilities by creating personas, 
 
-● Demonstrate research and data­gathering capabilities by creating personas, 
+        scenarios and use cases
 
-scenarios and use cases
+        ● Produce a complete set of UX design documentation including functional and design 
 
-● Produce a complete set of UX design documentation including functional and design 
+        specifications, wireframes and application flow charts.</p>
+        <p><a class = "btn-primary.raised:active btn btn-success" href="#"  role="button">Haven Appendix &raquo;</a></p>
+      </div><!-- footer -->
+    </div><!-- Pannel Body-->
 
-specifications, wireframes and application flow charts.
-</p></div></div>
+
+
+
     
-</div>
-    
-<script src="bootstrap/js/bootstrap.min.js"></script>
+  
+<script type="text/javascript">
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+    parallax();
+});</script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  
 
 </body>
 </html>
