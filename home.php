@@ -52,9 +52,10 @@ ref http://www.bootply.com/103783  */
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="login.php">login</a></li>
+		  <li><a href="Dashboard_Template/index.html"><span class = "glyphicon glyphicon-dashboard"></span>&nbsp;Dashboard</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
 
