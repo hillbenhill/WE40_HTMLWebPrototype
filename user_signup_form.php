@@ -79,7 +79,7 @@
      	<hr />
         
         <div class="form-group">
-            <button type="submit" class="btn btn-default" name="btn-save" id="btn-submit">
+            <button type="submit" class="btn btn-warning" name="btn-save" id="btn-submit">
     		<span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account
 			</button> 
         </div>  

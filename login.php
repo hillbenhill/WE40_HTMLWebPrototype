@@ -58,9 +58,11 @@ if(isset($_SESSION['user_session'])!="")
      	<hr />
         
         <div class="form-group">
-            <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+            <button type="submit" class="btn btn-warning" name="btn-login" id="btn-login">
     		<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
-			</button> 
+			</button>
+			<a href="index.html" class="btn btn-info glyphicon glyphicon-home" role="button">&nbsp; Home</a>
+			 
         </div>  
       
       </form>
