@@ -32,7 +32,7 @@ Ref: http://www.codingcage.com/
 			}
 			else{
 				
-				echo "email or password does not exist."; // wrong details 
+				echo "email or password does not exist please try again or signup."; // wrong details 
 			}
 				
 		}

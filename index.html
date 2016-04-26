@@ -12,6 +12,7 @@ ref http://www.bootply.com/103783  -->
   <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form using jQuery Ajax and PHP MySQL</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
@@ -22,7 +23,9 @@ ref http://www.bootply.com/103783  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.theme.min.css">
   <script>
   $(function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({// accordion pannel keep height according to content
+	heightStyle: "content"
+	});
   });
   </script>
 	<script type="text/javascript" src="validation.min.js"></script>
@@ -50,8 +53,9 @@ ref http://www.bootply.com/103783  -->
 		</div><!-- end nav header-->
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="">Landing Page</a></li>
+            <li class="active"><a href="index.html">Home Page</a></li>
             <li><a href="">About</a></li>
+			<li><a href="user_signup_form.php">Signup</a></li>
             <li><a href="login.php">login</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -69,11 +73,12 @@ ref http://www.bootply.com/103783  -->
         </div>
       </nav>
 
-      
-<div class="bg"></div>
-<div class="jumbotron">
-  <h1 style = "font-weight: bold;">H<font size="8">AVEN</font> </h1>
-  <p class="lead">Smart Home Care For Loved Ones</p>
+<div class = "container text-center">   
+	<div class="bg"></div>
+	<div class="jumbotron">
+	<h1 style = "font-weight: bold;">H<font size="8">AVEN</font> </h1>
+	<p class="lead">Smart Home Care For Loved Ones</p>
+	</div>
 </div>
 
 <div class="container">
@@ -100,7 +105,7 @@ ref http://www.bootply.com/103783  -->
     Aliquam in felis sit amet augue.
   </div>
  
-</div>
+</div> 
 
 <hr>
 <div id="accordion">
@@ -145,7 +150,7 @@ ref http://www.bootply.com/103783  -->
     </p>
     
   </div>
-</div>
+</div><!-- end accordion -->
 
 
       
@@ -169,7 +174,7 @@ ref http://www.bootply.com/103783  -->
         specifications, wireframes and application flow charts.</p>
         <p><a class = "btn-primary.raised:active btn btn-success" href="#"  role="button">Haven Appendix &raquo;</a></p>
       </div><!-- footer -->
-    </div><!-- Pannel Body-->
+    
 
 
 

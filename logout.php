@@ -11,6 +11,6 @@ Ref: http://www.codingcage.com/
 	
 	if(session_destroy())
 	{
-		header("Location: login.php");
+		header("Location: index.html");// end session bring user back to main home page 
 	}
 ?>

@@ -1,4 +1,10 @@
 // JavaScript Document
+/*Author: Ben Hill
+Assigment : WE4.0 PHP Web App Assigment, Digital Skills Academy
+  Student Id = D11128483
+  Date : 20016/04/22
+Ref: http://www.codingcage.com/
+*/
 
 $('document').ready(function()
 { 
@@ -44,19 +50,20 @@ $('document').ready(function()
 	   /* form submit */
 	   function submitForm()
 	   {		
-				var data = $("#register-form").serialize();
+				var data = $("#register-form").serialize();// form id = register-form
 				
 				$.ajax({
 				
 				type : 'POST',
 				url  : 'register.php',
 				data : data,
-				beforeSend: function()
+				beforeSend: function()// check boolean value for email befor function call if false cancel the request
 				{	
 					$("#error").fadeOut();
+					// spinner on button to show user system activity
 					$("#btn-submit").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
 				},
-				success :  function(data)
+				success :  function(data)// data sent to server run if new user 
 						   {						
 								if(data==1){
 									
@@ -72,7 +79,7 @@ $('document').ready(function()
 								}
 								else if(data=="registered")
 								{
-									
+									// spinner animation for the signup process
 									$("#btn-submit").html('<img src="btn-ajax-loader.gif" /> &nbsp; Signing Up ...');
 									setTimeout('$(".form-signin").fadeOut(500, function(){ $(".signin-form").load("success.php"); }); ',5000);
 									

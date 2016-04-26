@@ -35,8 +35,9 @@
     </a>          </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="">Landing Page</a></li>
+            <li class="active"><a href="index.html">Home Page </a></li>
             <li><a href="">About</a></li>
+			<li><a href = "user_signup_form.php">Singup</a></li>
             <li><a href="login.php">login</a></li>
           </ul>
 

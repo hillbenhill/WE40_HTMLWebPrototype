@@ -24,6 +24,7 @@ ref http://www.bootply.com/103783  */
  <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Form using jQuery Ajax and PHP MySQL</title>
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
   <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
@@ -50,7 +51,7 @@ ref http://www.bootply.com/103783  */
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="">Landing Page</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="login.php">login</a></li>
         </ul>
@@ -68,10 +69,12 @@ ref http://www.bootply.com/103783  */
       </div><!--/.nav-collapse -->
     </div>
   </nav>
-  <div class="bg"></div>
-<div class="jumbotron">
-  <h1>Haven</h1>
-  <p class="lead">Smart Homecare For Your loved Ones</p>
+  <div class = "container text-center">   
+	<div class="bg"></div>
+	<div class="jumbotron">
+	<h1 style = "font-weight: bold;">H<font size="8">AVEN</font> </h1>
+	<p class="lead">Smart Home Care For Loved Ones</p>
+	</div>
 </div>
 
 <div class="container">

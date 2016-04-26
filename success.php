@@ -19,12 +19,12 @@
 $('document').ready(function()
 { 
 	window.setTimeout(function(){
-									
+		// go to login page when user is signed up then they sign in to get acess to members page home.php			
 		window.location.href = "login.php";
 										
 	}, 6000);
 	
-	
+	// click or timeout fumtion when user is signed up
 	$("#back").click(function(){
 		window.location.href = "login.php";
 	});
@@ -51,28 +51,16 @@ $('document').ready(function()
 				</div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <ul class="nav navbar-nav">
-            <li class="active"><a href="">Landing Page</a></li>
+            
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="login.php">login</a></li>
           </ul>
 
 
 
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Tutorials <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="" target="_blank">1</a></li>
-                <li><a href="" target="_blank">2</a></li>
-                <li><a href="#">3</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">4</li>
-                <li><a href="" target="_blank">6</a></li>
-                <li><a href="" target="_blank">7</a></li>
-              </ul>
-            </li>
-          </ul>
+            
+         
         </div><!--/.nav-collapse -->
       </div>
 </nav>

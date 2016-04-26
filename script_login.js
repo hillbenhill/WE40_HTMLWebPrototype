@@ -1,6 +1,8 @@
-/*
-Author: Pradeep Khodke
-URL: http://www.codingcage.com/
+/*Author: Ben Hill
+Assigment : WE4.0 PHP Web App Assigment, Digital Skills Academy
+  Student Id = D11128483
+  Date : 20016/04/22
+Ref: http://www.codingcage.com/
 */
 
 $('document').ready(function()
