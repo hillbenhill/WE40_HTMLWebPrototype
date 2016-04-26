@@ -30,6 +30,7 @@ ref http://www.bootply.com/103783  */
   <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
   <script type="text/javascript" src="jquery-1.11.3-jquery.min.js"></script>
   <link href="style.css" rel="stylesheet" media="screen">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -84,21 +85,7 @@ ref http://www.bootply.com/103783  */
     Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
     dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
     Aliquam in felis sit amet augue.
-    <br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-    Aliquam in felis sit amet augue.
-    <br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-    Aliquam in felis sit amet augue.
-    <br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-    Aliquam in felis sit amet augue.
+    
   </div>
  
 </div>
@@ -138,6 +125,16 @@ ref http://www.bootply.com/103783  */
       
  
  </div><!-- /container-->
+ <footer><!-- footer with socail media links -->
+ <ul class="list-inline col-md-4 col-md-offset-8 ">
+<a class = "btn-primary.raised:active btn btn-success" href="#"  role="button">Haven Appendix &raquo;</a>
+<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+ </footer>
     <script type="text/javascript">
     window.twttr = (function (d, s, id) {
       var t, js, fjs = d.getElementsByTagName(s)[0];

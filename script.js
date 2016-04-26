@@ -79,7 +79,7 @@ $('document').ready(function()
 								}
 								else if(data=="registered")
 								{
-									// spinner animation for the signup process
+									// spinner animation for the signup process go to success page if true
 									$("#btn-submit").html('<img src="btn-ajax-loader.gif" /> &nbsp; Signing Up ...');
 									setTimeout('$(".form-signin").fadeOut(500, function(){ $(".signin-form").load("success.php"); }); ',5000);
 									
