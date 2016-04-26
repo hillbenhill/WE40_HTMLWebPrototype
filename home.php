@@ -74,7 +74,7 @@ ref http://www.bootply.com/103783  */
   <div class = "container text-center">   
 	<div class="bg"></div>
 	<div class="jumbotron">
-	<h1 style = "font-weight: bold;">H<font size="8">AVEN</font> </h1>
+	<h1 style = "font-weight: bold; font-size: 5.5em;">H<font size="8em">AVEN</font> </h1>
 	<p class="lead">Smart Home Care For Loved Ones</p>
 	</div>
 </div>
