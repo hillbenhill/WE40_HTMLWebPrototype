@@ -60,7 +60,7 @@ body{
   background: url('images/IntroPage.jpg') no-repeat center center;
   position: fixed;
   width: 100%;
-  height: 70%; /*same height as jumbotron */
+  height: 352px; /*same height as jumbotron */
   top:0;
   left:0;
   z-index: -1;
